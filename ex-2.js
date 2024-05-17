@@ -2,7 +2,9 @@
 
 function atLeastFive(array, operation) {
   // Start coding here
-  return operation(array) >= 5 ? true : false;
+  return operation(array) >= 5
+    ? console.log("ผ่านเกณฑ์ ✅")
+    : console.log("ไม่ผ่านเกณฑ์ ❌");
 }
 
 const studentScoresRoom1 = [90, 40, 67, 80, 100, 15, 86, 12, 99, 67];
